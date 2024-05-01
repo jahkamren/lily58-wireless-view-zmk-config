@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/jahkamren
+      url-base: https://github.com/jahkamren/zmk-custom
   projects:
     - name: zmk-custom
       remote: zmkfirmware
