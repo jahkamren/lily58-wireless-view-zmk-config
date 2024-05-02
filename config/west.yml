@@ -1,20 +1,11 @@
 manifest:
   remotes:
-    - name: myrepo
+    - name: zmkfirmware
       url-base: https://github.com/jahkamren
-
   projects:
     - name: zmk-custom
-      repo-path: zmk-custom
-      remote: myrepo
+      remote: zmkfirmware
       revision: main
-      path: zmk-custom
-
-    - name: zephyr
-      repo-path: zephyr-custom
-      remote: myrepo
-      revision: v3.5.0+zmk-fixes
-      path: zephyr
-
+      import: app/west.yml
   self:
     path: config
